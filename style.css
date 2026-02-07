@@ -107,7 +107,7 @@ body {
 .hero {
     margin-top: 60px;
     height: 600px;
-    background: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(92, 46, 10, 0.85)), url('yaqoot.jpg') center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(92, 46, 10, 0.85)), url('yaqoot.jpg') center/contain no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -896,3 +896,4 @@ body {
         display: none;
     }
 }
+
