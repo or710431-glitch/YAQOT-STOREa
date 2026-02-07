@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ياقوت ستور - عباءات ومصليات فاخرة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-gem"></i>
+                <span>ياقوت ستور</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#products">المنتجات</a>
+                <a href="#gallery">المعرض</a>
+                <a href="#about">عن البراند</a>
+                <a href="#contact">تواصل معنا</a>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>ياقوت ستور</h1>
+            <p>عباءات ومصليات فاخرة بتصاميم عصرية</p>
+            <p class="cta" style="margin: 8px;">تحت اشراف محمد شاكر وياسمين ياسين</p>
+            <button class="cta-button">اكتشف المنتجات</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card" data-aos="zoom-in">
+                <div class="stat-number" data-target="500">0</div>
+                <p>منتج متاح</p>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="stat-number" data-target="15000">0</div>
+                <p>عميل سعيد</p>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-number" data-target="98">0</div>
+                <p>نسبة الرضا %</p>
+            </div>
+            <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-number" data-target="4.8">0</div>
+                <p>التقييم</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">منتجاتنا الحصرية</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">معرض الصور</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery images will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="closeLightbox">&times;</button>
+            <button class="lightbox-prev" id="prevImage"><i class="fas fa-chevron-right"></i></button>
+            <div class="lightbox-main">
+                <img id="lightboxImage" src="" alt="">
+                <div class="image-counter">
+                    <span id="currentImage">0</span> / <span id="totalImages">0</span>
+                </div>
+            </div>
+            <button class="lightbox-next" id="nextImage"><i class="fas fa-chevron-left"></i></button>
+            <div class="image-description" id="imageDescription"></div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">عن ياقوت ستور</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        ياقوت ستور هو متخصص في تصميم وإنتاج العباءات والمصليات الفاخرة بأعلى معايير الجودة. 
+                        نؤمن بأن الملابس الإسلامية يجب أن تجمع بين الأصالة والتطور العصري.
+                    </p>
+                    <p>
+                        كل منتج من منتجاتنا يُصنع بعناية فائقة باستخدام أفضل الخامات، ونقدم تشكيلة متنوعة 
+                        من الألوان والتصاميم التي تناسب جميع الأذواق.
+                    </p>
+                    <div class="features">
+                        <div class="feature" data-aos="fade-right">
+                            <i class="fas fa-check-circle"></i>
+                            <span>جودة عالية جداً</span>
+                        </div>
+                        <div class="feature" data-aos="fade-right" data-aos-delay="100">
+                            <i class="fas fa-check-circle"></i>
+                            <span>تصاميم حصرية</span>
+                        </div>
+                        <div class="feature" data-aos="fade-right" data-aos-delay="200">
+                            <i class="fas fa-check-circle"></i>
+                            <span>خدمة عملاء ممتازة</span>
+                        </div>
+                        <div class="feature" data-aos="fade-right" data-aos-delay="300">
+                            <i class="fas fa-check-circle"></i>
+                            <span>أسعار مناسبة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="yaqoot.jpg" alt="صورة البراند" data-aos="zoom-in">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Notifications -->
+    <div class="notification" id="notification"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 ياقوت ستور. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/build/index.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
